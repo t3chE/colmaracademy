@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: grey;
+    background-color: white;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+
+/* Header Section*/
+
+header {
+    width: auto; 
+    z-index: 1;
+    height: 64px;  
+    padding-bottom: 16px; 
+    align-items: center;
+}
+
+header img {
+    height: 32px;
+    padding-left: 24px;
+    height: 60px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding-right: 16px;
+}
