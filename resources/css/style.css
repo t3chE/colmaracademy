@@ -1,0 +1,20 @@
+
+
+/* Links */
+
+.desktop {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
