@@ -12,15 +12,17 @@ body {
 #page-container {
     margin: 0 auto;
     width: 1245px;
+    border: 1px;
+    border-color:  #474747;
 }
 
 /* Header */
 
 header {
     position: fixed;
-    z-index: 100;
+    top: 0px;
+    z-index: 10;
     width: 100%;
-    border-bottom: solid 1px #c6c1c1;
     background-color: white;
     height: 64px;   
 }
@@ -38,6 +40,10 @@ header {
     height: 32px;
 }
 
+.mobile {
+    visibility: hidden;
+}
+
 /* Links */
 
 
@@ -51,6 +57,7 @@ ul {
 
 li {
     display: inline;
+    margin-right: 10px;
 }
 
 /* Learn Section*/
