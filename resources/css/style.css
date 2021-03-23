@@ -38,16 +38,13 @@ header {
     height: 32px;
 }
 
-.desktop a {
-    display: inline;
+.nav a {
+    color: #3a3a3a;
 }
 
 #colmar {
-    padding-left: 10px;  
-}
-
-.mobile {
-    visibility: hidden;
+    display: inline;  
+    padding-right: 500px;
 }
 
 /* Links */
@@ -55,7 +52,6 @@ header {
 
 a {
     text-decoration: none;
-    color: #9c9a9a;
 }
 
 ul {
