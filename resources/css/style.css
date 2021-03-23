@@ -24,20 +24,26 @@ header {
     z-index: 10;
     width: 100%;
     background-color: white;
-    height: 64px;   
+    height: 64px; 
+    padding: 16px 24px; 
+    display: inline;
 }
 
 .content {
     display: inline-flex;
-} 
+    width: 100%;
+}
 
 .logo {
-    padding-left: 24px;
-    padding-top: 16px;
+    height: 32px;
+}
+
+.desktop a {
+    display: inline;
 }
 
 #colmar {
-    height: 32px;
+    padding-left: 10px;  
 }
 
 .mobile {
@@ -49,6 +55,7 @@ header {
 
 a {
     text-decoration: none;
+    color: #9c9a9a;
 }
 
 ul {
@@ -57,7 +64,6 @@ ul {
 
 li {
     display: inline;
-    margin-right: 10px;
 }
 
 /* Learn Section*/
