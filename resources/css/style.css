@@ -19,7 +19,7 @@ body {
 /* Header */
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0px;
     z-index: 10;
     width: 100%;
@@ -35,11 +35,8 @@ header {
 }
 
 .logo {
+    position: relative;
     height: 32px;
-}
-
-.nav a {
-    color: #3a3a3a;
 }
 
 #colmar {
@@ -63,4 +60,9 @@ li {
 }
 
 /* Learn Section*/
+
+#banner {
+    padding: 32px 24px;
+    width: 60%;
+}
 
