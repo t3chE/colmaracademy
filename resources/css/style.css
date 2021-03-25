@@ -19,7 +19,7 @@ body {
 /* Header */
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 10;
     width: 100%;
@@ -31,13 +31,13 @@ header {
 
 .content {
     display: inline-flex;
-    width: 100%;
+    
 }
 
 #logo {
     position: relative;
     top: 12px;
-    height: 32px;
+    padding-left: 24px;
 }
 
 #colmar {
@@ -47,7 +47,8 @@ header {
 
 .nav {
     float: right;
-    color: #464646;
+    margin-left: 132px;
+    padding-right: 24px;
 }
 
 /* Links */
@@ -63,6 +64,8 @@ ul {
 
 li {
     display: inline;
+    padding-right: 16px;
+    color: #464646;
 }
 
 /* Learn Section*/
