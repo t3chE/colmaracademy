@@ -71,8 +71,10 @@ li {
 /* Learn Section*/
 
 .banner {
-    display: inline;
-    
+    position: relative;
+    top: 64px;
+    padding: 32px 24px;
+    background-color: #c8c8c8;
 }
 
 .banner img {
