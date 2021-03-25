@@ -76,17 +76,17 @@ li {
     width: 60%;
 }
 
-.banner-text {
-    flex-wrap: wrap;
+.banner-text { 
     float: right;
-    width: 100;
+    width: 300px;
     margin: 120px 0 0;
+    padding-left: 10px;
     color: #464646;
 }
 
 #button {
-    padding: 2% 10%;
-    width: 52%;
+    padding: 3% 10%;
+    width: 100%;
     color: #fff;
     background-color: #464646;
     border: 1px solid #464646;
