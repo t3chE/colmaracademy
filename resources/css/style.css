@@ -44,6 +44,11 @@ header {
     padding-right: 500px;
 }
 
+.nav {
+    float: right;
+    color: #464646;
+}
+
 /* Links */
 
 
