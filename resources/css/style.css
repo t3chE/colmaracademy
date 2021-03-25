@@ -34,8 +34,8 @@ header {
     width: 100%;
 }
 
-.logo {
-    position: relative;
+#logo {
+    position: inherit;
     height: 32px;
 }
 
@@ -61,8 +61,29 @@ li {
 
 /* Learn Section*/
 
-#banner {
+.banner {
+    display: inline;
+    
+}
+
+.banner img {
     padding: 32px 24px;
     width: 60%;
+}
+
+.banner-text {
+    flex-wrap: wrap;
+    float: right;
+    width: 100;
+    margin: 120px 0 0;
+    color: #464646;
+}
+
+#button {
+    padding: 2% 10%;
+    width: 52%;
+    color: #fff;
+    background-color: #464646;
+    border: 1px solid #464646;
 }
 
