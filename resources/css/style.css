@@ -110,10 +110,18 @@ li {
 .practice {
     position: relative;
     top: 32px;
+    padding: 32px 24px;
 }
 
 .practice img {
-    padding: 32px 24px;
+    top: 32px;
     width: 60%;
 }
 
+.practice h2 {
+    color: #464646;
+}
+
+.practice p {
+    width: 60%;
+}
