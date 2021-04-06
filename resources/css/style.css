@@ -9,12 +9,13 @@ html {
 }
 
 body {
+    display: grid;
     color: #9c9a9a;
 }
 
-#page-container {
+.container {
     margin: 0 auto;
-    width: 1245px;
+    width: 900px;
     border: 1px;
     border-color:  #474747;
 }
