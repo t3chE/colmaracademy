@@ -1,4 +1,7 @@
-/* Universal Styles */
+
+
+/* 1. Universal Styles 
+===========================*/
 
 html {
     font-family:sans-serif;
@@ -16,7 +19,8 @@ body {
     border-color:  #474747;
 }
 
-/* Header */
+/* 2. Header 
+============================*/
 
 header {
     position: fixed;
@@ -24,7 +28,7 @@ header {
     z-index: 10;
     width: 100%;
     background-color: white;
-    height: 64px; 
+    height: 32px; 
     padding: 16px 24px; 
     display: inline;
 }
@@ -50,8 +54,8 @@ header {
     margin-left: 100px;
 }
 
-/* Links */
-
+/* 3. Links 
+============================*/
 
 a {
     text-decoration: none;
@@ -67,11 +71,12 @@ li {
     color: #464646;
 }
 
-/* Learn Section*/
+/* 4. Learn Section
+=============================*/
 
 .banner {
     position: relative;
-    top: 64px;
+    top: 32px;
     padding: 32px 24px;
     background-color: #c8c8c8;
 }
@@ -82,11 +87,11 @@ li {
 }
 
 .banner-text { 
-    position: relative;
+    position: static;
     left: 65%;
     bottom: 560px;
     width: 300px;
-    margin: 120px 0 0;
+    margin: 0 0 0;
     padding-left: 10px;
     color: #464646;
 }
@@ -97,5 +102,18 @@ li {
     color: #fff;
     background-color: #464646;
     border: 1px solid #464646;
+}
+
+/* 5. Practice Section
+===================================*/
+
+.practice {
+    position: relative;
+    top: 32px;
+}
+
+.practice img {
+    padding: 32px 24px;
+    width: 60%;
 }
 
