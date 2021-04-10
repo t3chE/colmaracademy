@@ -9,11 +9,12 @@ html {
 }
 
 body {
-    display: grid;
     color: #9c9a9a;
 }
 
-
+.page-container {
+    display: grid;
+}
 
 /* 2. Header 
 ============================*/
